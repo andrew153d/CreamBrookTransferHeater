@@ -40,12 +40,6 @@ The control box contains electronic components that monitor milk temperature and
 ---
 
 ## 3. General Operation Instructions
-
-### Initial Setup
-1. Mount and wire the box according to the provided schematic.
-2. Connect power and verify grounding.
-3. Connect sensor and motor cables to marked terminals.
-
 ### Automatic Operation
 1. Power on the system
 2. Set mode to automatic
