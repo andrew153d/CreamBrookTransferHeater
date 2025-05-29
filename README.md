@@ -103,12 +103,6 @@ Setpoints for each product type can be configured via HMI or the configuration f
 | **120V Relays**        | Gates power to motors, controlled by Estop and mode selectors | -    |
 | **Optocoupler Module** | Converts signals to 5V for Arduino                            | -    |
 
-### Control Logic Summary
-1. System powers on and runs initialization checks on temperature probes.
-2. Reads mode selector switches and control buttons to determine state.
-3. On start, system sets the temperature setpoint and runs the transfer pump at 50%. The PID loop continuously reads temperatures.
-4. Once output temperature stabilizes, the system increases the transfer pump speed until the circulation pump reaches nearly 100% speed.
-
 ### Alarm & Fault Handling
 
 #### Beacon Indicators  
