@@ -135,3 +135,8 @@ Setpoints for each product type can be configured via HMI or the configuration f
 
 ---
 
+## 5. UI Previews
+![Display](Display.webp)
+
+---
+
