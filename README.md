@@ -7,7 +7,6 @@ The system is designed to control a heat exchanger for heating milk to a specifi
 This controller is responsible for:
 - Controlling milk temperature based on product type
 - Manual operation of the system in the event of software malfunction
-- Logging liquid temperature during transfer and heating
 - Basic fault detection and alarm signaling
 
 ---
