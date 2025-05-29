@@ -111,7 +111,7 @@ Setpoints for each product type can be configured via HMI or the configuration f
 | --------------- | --------------------------- | ------------------------------------------ |
 | **Green Solid** | IDLE                        | Operation as expected                      |
 | **Amber**       | Warning, Attention Required | Operation continues                        |
-| **Red**         | Error (Estop, sensor error) | Power removed from motors, Estop condition |
+| **Red**         | Error                       | Power removed from motors, Estop condition |
 
 #### Faults
 
