@@ -139,6 +139,7 @@ Setpoints for each product type can be configured via HMI or the configuration f
 ![Display](Display.webp)
 ![Display](Warning.webp)
 ![Display](Error.webp)
+![Display](Panel.webp)
 
 ---
 
