@@ -63,19 +63,19 @@ Setpoints for each product type can be configured via HMI or the configuration f
 
 ### Inputs
 
-| Input       | Description              | Range / Type                  |
-| ----------- | ------------------------ | ----------------------------- |
-| **PT1/PT2** | Milk temperature input   | -                             |
-| **PT3/PT4** | Milk temperature output  | -                             |
-| **PT5**     | Boiler water temperature | -                             |
-| **Estop**   | Emergency Stop Button    | Breaks power from both motors |
-| **SW1**     | System Power             | -                             |
-| **SW2**     | Mode Control Switch      | Off, Automatic, Manual        |
-| **SW3**     | Product Control Switch   | Keifer, Cream, Spare          |
-| **POT1**    | Transfer Pump Control    | Speed control                 |
-| **POT2**    | Circulation Pump Control | Speed control                 |
-| **BT1**     | Start Button             | -                             |
-| **BT2**     | Stop Button              | -                             |
+| Input       | Description              | Function                       |
+| ----------- | ------------------------ | ------------------------------ |
+| **PT1/PT2** | Milk intput temperature  | -                              |
+| **PT3/PT4** | Milk output temperature  | -                              |
+| **PT5**     | Boiler water temperature | -                              |
+| **Estop**   | Emergency Stop Button    | Removes power from both motors |
+| **SW1**     | System Power             | -                              |
+| **SW2**     | Mode Control Switch      | Off, Automatic, Manual         |
+| **SW3**     | Product Control Switch   | Keifer, Cream, Spare           |
+| **POT1**    | Transfer Pump Control    | Speed control, potentiometer   |
+| **POT2**    | Circulation Pump Control | Speed control  potentiometer   |
+| **BT1**     | Start Button             | -                              |
+| **BT2**     | Stop Button              | -                              |
 
 ### Outputs
 
