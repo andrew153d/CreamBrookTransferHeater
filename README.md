@@ -69,6 +69,7 @@ Setpoints for each product type can be configured via HMI or the configuration f
 ## 4. Functional Specification
 
 ### Inputs
+
 | Input       | Description              | Range / Type                  |
 | ----------- | ------------------------ | ----------------------------- |
 | **PT1/PT2** | Milk temperature input   | -                             |
@@ -84,6 +85,7 @@ Setpoints for each product type can be configured via HMI or the configuration f
 | **BT2**     | Stop Button              | -                             |
 
 ### Outputs
+
 | Output                      | Description             | Type         |
 | --------------------------- | ----------------------- | ------------ |
 | **Circulation Pump Power**  | Power supply            | 110V         |
@@ -93,6 +95,7 @@ Setpoints for each product type can be configured via HMI or the configuration f
 | **Beacon Control**          | Power for status beacon | 12V Digital  |
 
 ### Internal Parts List  
+
 | Part                   | Description                                                   | Type |
 | ---------------------- | ------------------------------------------------------------- | ---- |
 | **12V Power Supply**   | Powers Uno, Beacon                                            | 5A   |
@@ -116,6 +119,7 @@ Setpoints for each product type can be configured via HMI or the configuration f
 ### Alarm & Fault Handling
 
 #### Beacon Indicators  
+
 | Condition       | Meaning                     | Effect                                     |
 | --------------- | --------------------------- | ------------------------------------------ |
 | **Green Solid** | IDLE                        | Operation as expected                      |
@@ -123,6 +127,7 @@ Setpoints for each product type can be configured via HMI or the configuration f
 | **Red**         | Error (Estop, sensor error) | Power removed from motors, Estop condition |
 
 #### Faults
+
 | Condition                                 | Response |
 | ----------------------------------------- | -------- |
 | **PT1/PT2 delta > 5°C**                   | Warning  |
